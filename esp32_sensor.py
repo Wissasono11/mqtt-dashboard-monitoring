@@ -142,7 +142,8 @@ def run_esp32_dht():
     TOPICS = {
         "sensor_temp": "sensor/esp32/2/temperature",
         "sensor_humidity": "sensor/esp32/2/humidity",
-        "sensor_led": "sensor/esp32/2/led"
+        "led_status": "sensor/esp32/2/led",
+        "led_control": "sensor/esp32/2/led/control",
     }
 
     esp = ESP32DHTMqtt(BROKER, CLIENT_ID, TOPICS)

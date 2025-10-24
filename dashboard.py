@@ -13,7 +13,7 @@ import matplotlib.dates as mdates
 class MQTTDashboard:
     def __init__(self, root):
         self.root = root
-        self.root.title("ESP32 DHT11 Monitoring Dashboard")
+        self.root.title("Dashboard Monitoring Suhu dan Kelembapan ESP32 DHT11")
         self.root.geometry("1200x700")
         self.root.configure(bg='#1e1e2e')
         
